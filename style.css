@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,400;1,600&family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Krona+One&family=Montserrat:ital,wght@0,400;1,600&family=Righteous&family=Sarala:wght@400;700&display=swap');
 
 :root {
     --branco-primario: #FFFF;
@@ -9,6 +9,7 @@
 
     --font-primaria: 'Krona One', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
+    --font-terciaria: 'Inter', sans-serif;
 }
 
 * {
@@ -21,66 +22,73 @@ body {
     color: var(--branco-primario);
 }
 
-.apresentacao_container {
+.apresentacao_principal {
     background-image: url(img/background.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
-
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .apresentacao_secao {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0px 0px 10px;
+    text-align: center; 
+
 }
 
 .apresentacao_titulo {
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Inter', sans-serif;;
     font-weight: 550;
+    font-size: 1.6rem;
+    font-weight: 600;  
+    padding: 0 2em 0 2em;
 }
 
-.apresentacao_imagem {
-    width: 25%;
-}
-
-.apresentacao_botao {
-    display: flex;
-    align-items: center;
-    justify-items: space-between;
-
-    
+.container_imagem {
+    padding: 1em;
 }
 
 .container_botao {
+    display: block;
     background-color: var(--azul-secundario);
     color: var(--branco-primario);
     text-decoration: none;
     font-family: var(--font-secundaria);
     border: 2px solid var(--azul-secundario);
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 1rem;
     font-weight: 600;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.container_botao_dois {
+    background-color: transparent;
 }
 
 .container_botao:hover {
     font-size: 1.05rem;
-
-}
-
-.container_botao_dois {
-    color: var(--branco-primario);
-    text-decoration: none;
-    font-family: var(--font-secundaria);
-    border: 2px solid var(--azul-secundario);
-    padding: 5px;
-    border-radius: 10px;
-    font-weight: 600;
 }
 
 .container_botao_dois:hover {
     font-size: 1.05rem;
 }
+
+.container_aviso {
+    color: var(--cinza-quaternario);
+    font-family: var(--font-secundaria);
+    font-size: 0.70rem;
+    padding: 0.15em;
+}
+
+
 
 
