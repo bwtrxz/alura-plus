@@ -22,24 +22,27 @@ body {
     color: var(--branco-primario);
 }
 
-.apresentacao_principal {
-    background-image: url(img/background.png);
+.principal {
+    background-image: url("img/background.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    align-items: center; 
+    text-align: center;
 }
 
-.apresentacao_secao {
+.container {
+    height: 100vh; 
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.container__caixa {
+    margin: 0 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 15px;
-    padding: 10px 0px 0px 10px;
-    text-align: center; 
-
+    text-align: center;
 }
 
 .apresentacao_titulo {
@@ -47,7 +50,7 @@ body {
     font-weight: 550;
     font-size: 1.6rem;
     font-weight: 600;  
-    padding: 0 2em 0 2em;
+    padding: 0 1em 0 1em;
 }
 
 .container_imagem {
