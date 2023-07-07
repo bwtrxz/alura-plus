@@ -99,6 +99,7 @@ body {
 .secundario {
     align-items: center;
     margin: 0 7em;
+    margin: -6em 7em;
 }
 
 .apresentacao_paragrafo {
@@ -119,20 +120,16 @@ body {
     margin: 0 1em;
 }
 
-.container__caixa_secundario {
-    text-align: center;
-}
-
 .terciario {
     align-items: center;
     justify-items: center;
-    padding: 0 0 5em 0;
+    margin: -6em 0;
 }
 
 .quaternario {
     align-items: center;
     justify-items: center;
-    padding: 0 5em;
+    margin: -6em 0;
 }
 
 .tres {
@@ -141,7 +138,25 @@ body {
     color: var(--branco-primario);
 }
 
+.quintenario {
+    text-align: center;
+    margin: 10.5em 0;
+}
 
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;;
+    font-weight: 550;
+    font-size: 1rem;
+    font-weight: 600; 
+    margin: 3em 0; 
+}
+
+.dispositivos_lista:hover {
+    font-size: 1.5rem;
+}
 
 
 
