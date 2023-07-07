@@ -149,7 +149,7 @@ body {
     list-style-type: none;
     font-family: 'Inter', sans-serif;;
     font-weight: 550;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 600; 
     margin: 3em 0; 
 }
@@ -185,6 +185,7 @@ body {
 .lista_link a:hover {
     text-decoration: underline;
     font-size: 1.01rem;
+    color: var(--azul-secundario);
 }
 
 .rodape_texto {
