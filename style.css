@@ -154,9 +154,50 @@ body {
     margin: 3em 0; 
 }
 
-.dispositivos_lista:hover {
+.lista_item:hover {
     font-size: 1.5rem;
 }
+
+.rodape {
+    font-family: var(--font-secundaria);
+}
+
+.rodape_imagem {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.rodape_lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.lista_link a {
+    margin: 1em;
+    font-size: 0.9rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--branco-primario);
+}
+
+.lista_link a:hover {
+    text-decoration: underline;
+    font-size: 1.01rem;
+}
+
+.rodape_texto {
+    color: var(--cinza-quaternario);
+    margin: 1.9em 5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+
 
 
 
